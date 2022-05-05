@@ -392,7 +392,10 @@ transition-delay  延迟时间
 
 定义动画@keyframes r动画名字{
 
-​							from {
+​						
+
+```
+	from {
 
 ​									transform：rotate（0）；			
 
@@ -405,6 +408,7 @@ transition-delay  延迟时间
 ​										}
 
 ​									}
+```
 
 定义动画后，可以使用animation属性调用动画
 
